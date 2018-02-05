@@ -1,0 +1,13 @@
+body{
+	background-color: #0000FF;
+	font-family: Helvetica;
+	color: #fff;
+}
+.bgRed{
+	background-color: red;
+	color:green;
+}
+.bgGreen{
+	background-color: green;
+	color:yellow;
+}

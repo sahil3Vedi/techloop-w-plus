@@ -1,0 +1,27 @@
+.bg-pink{
+  background-color: #C2185B;
+}
+/*sets the background color to pink*/
+
+.pt-20{
+  padding-top: 20px;
+}
+/*sets the top padding to 20px*/
+
+.text-list{
+  font-size: 1.5em;
+}
+/*sets the font size to 1.5em*/
+
+.btn-pink{
+  background-color: white;
+  border-color: #ab1852;
+  color: #ab1852;
+}
+
+.btn-pink:hover{
+  background-color: #ab1852;
+  border-color: white;
+  color: white;
+}
+/*used for hover effect on the button on our weboage*/

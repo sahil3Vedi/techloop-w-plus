@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> <!--setting the language to English-->
+
+<head>
+  <meta charset="UTF-8"><!-- Encoding of the file -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--asking the browser to occupy maximum availabkle screen space-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"><!-- compatibility for IE/Edge-->
+  <title>Suniel Shetty Fan Club</title><!--Title of the document-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"><!--refering to bootstrap CSS from the cloud-->
+  <link rel="stylesheet" href="css/style.css"><!--referring to our own customised CSS-->
+</head>
+
+<body>
+
+  <nav class="navbar bg-pink text-white"><!--Navbar: contains elements used for Navigation of the webpage/ website-->
+    <h1 class="navbar-brand mb-0">Suniel Shetty FC</h1>
+    <!-- navbar-brand, mb-0 are predefined bootstrap classes-->
+    <!--mb-0 is defined as margin-bottom: 0 inside bootstrap CSS-->
+  </nav>
+  <!-- navbar, text-white are predefined bootstrap classes-->
+  <!-- bg-pink is a custom class we defined inside style.css-->
+
+
+  <!--container is a predefined bootstrap class that makes sure that the content on the screen is modular and fits within the device width-->
+  <div class="container">
+    <!--row is another bootstrap class used when col classes are to be called. All col divs have to belong to a row div-->
+    <div class="row">
+      <!-- cols are predefined in bootstrap. To know more refer to the PDF file titled "Learning Bootstrap Feb 2018"-->
+      <div class="col-lg-6 col-sm-12 pt-20" id="register">
+        <h2> Become a member </h2>
+        <form action="">
+          <!-- form-group is a predefined bootstrap class. Each <input> tag belongs inside a form-group div-->
+          <div class="form-group">
+            <!-- each <input> tag should have the class form-control, a bootstrap class-->
+            <input type="text" class="form-control" placeholder="Full Name" required></input>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" required></input>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Contact Number" required></input>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password" required></input>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Confirm Password" required></input>
+          </div>
+          <button type="submit" class="btn btn-pink">Sign Up</button>
+        </form>
+      </div>
+      <div class="col-lg-6 col-sm-12 pt-20" id="#about">
+        <h2> Cool Facts about Suniel </h2>
+        <!-- We have defined text-list inside style.css-->
+        <ul class="text-list">
+          <li> Guy changed his name to "Suniel" in 2014. LOL </li>
+          <li> He was bald for 3 years </li>
+          <li> He has five wives </li>
+          <li> He is 27.18 years old.. 27.19 when this file was uploaded </li>
+          <li> He and Uday are VIT alumni </li>
+          <li> Ze is a girl who died in a car crash </li>
+          <li> jk he alive </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
